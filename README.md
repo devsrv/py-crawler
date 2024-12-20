@@ -15,7 +15,6 @@ A Python-based web crawler that systematically browses websites and generates a 
 ## Prerequisites
 
 -   Python 3.x
--   Linux/Unix environment (for apt-get)
 
 ## Installation
 
@@ -74,12 +73,6 @@ The script generates a CSV file with the following columns:
 -   Removes URL fragments (#) and query parameters (?)
 -   Converts relative URLs to absolute URLs
 -   Validates URLs against the original domain
-
-### Error Handling
-
--   Timeout handling for slow responses
--   Graceful handling of connection errors
--   Records failed requests with status code 0
 
 ### Rate Limiting
 
